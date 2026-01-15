@@ -42,6 +42,24 @@ class HomeHeader extends StatelessWidget {
               size: 60,
               color: Colors.white,
             ),
+          ),
+          SizedBox(height: 15),
+          Text(
+            'IDN Cafe QR System',
+            style: TextStyle(
+              fontSize: 28,
+              fontWeight: FontWeight.bold,
+              color: Colors.white,
+              letterSpacing: 1
+            ),
+          ),
+          SizedBox(height: 5),
+          Text(
+            'Kelola dan bayar dengan mudah',
+            style: TextStyle(
+              fontSize: 14,
+              color: Colors.white70,
+            ),
           )
         ],
       ),
