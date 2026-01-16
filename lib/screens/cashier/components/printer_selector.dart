@@ -39,7 +39,6 @@ class PrinterSelector extends StatelessWidget {
                   ),
                 ),
                 value: selectedDevice,
-                icon: Icon(Icons.keyboard_arrow_down_rounded),
                 items: devices.map((e) => DropdownMenuItem(
                   value: e,
                   child: Text(e.name ?? "unknown device", style: TextStyle(fontSize: 14),),
